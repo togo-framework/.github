@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/togo-framework/.github/main/profile/assets/togo-mark.svg" width="120" alt="ToGO" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/togo-framework/.github/main/profile/assets/togo-mark-dark.svg" />
+    <img src="https://raw.githubusercontent.com/togo-framework/.github/main/profile/assets/togo-mark.svg" width="120" alt="ToGO" />
+  </picture>
 </p>
 
 <h1 align="center">ToGO</h1>
@@ -10,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://to-go.dev"><img alt="Website" src="https://img.shields.io/badge/website-to--go.dev-1FC7DC?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@togo-framework/cli"><img alt="npm" src="https://img.shields.io/npm/v/@togo-framework/cli?style=flat-square&color=2D8CE6&label=cli" /></a>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-1659C8?style=flat-square" />
+  <a href="https://to-go.dev"><img alt="Website" src="https://img.shields.io/badge/website-to--go.dev-1F8A99?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@togo-framework/cli"><img alt="npm" src="https://img.shields.io/npm/v/@togo-framework/cli?style=flat-square&color=1F8A99&label=cli" /></a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-0E1A3C?style=flat-square" />
 </p>
 
 ---
