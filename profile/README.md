@@ -61,7 +61,12 @@ togo generate && togo migrate && togo serve
 
 ## Links
 
-[**Website**](https://to-go.dev) · [**Docs**](https://docs.to-go.dev) · [**UI / Storybook**](https://ui.to-go.dev) · [**Demo**](https://demo.to-go.dev) · [**npm**](https://www.npmjs.com/org/togo-framework)
+[**Website**](https://to-go.dev) · [**Docs**](https://to-go.dev/en/docs) · [**Demo**](https://demo.to-go.dev) · [**npm**](https://www.npmjs.com/org/togo-framework)
+
+Built by [Fady Mondy](https://fadymondy.com). More from the same maintainer:
+
+- [TomatoPHP](https://tomatophp.com): open-source FilamentPHP plugins for Laravel
+- [Laravilt](https://laravilt.com): an open-source Laravel admin panel built with Vue 3 and Inertia.js
 
 ---
 
