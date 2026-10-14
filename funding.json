@@ -1,0 +1,132 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Fady Mondy",
+    "email": "engfadymondy@gmail.com",
+    "description": "Independent open-source maintainer in Egypt. Creator of ToGO (an API-first Go + React full-stack framework with 4 open-source production apps and 240 plugin repos) and TomatoPHP (164 FilamentPHP/Laravel packages, ~1.79M installs).",
+    "webpageUrl": {
+      "url": "https://fadymondy.com"
+    }
+  },
+  "projects": [
+    {
+      "guid": "togo",
+      "name": "ToGO",
+      "description": "API-first full-stack framework for Go (sqlc + Atlas + React) with an artisan-style CLI, an MCP server and 240 open-source plugins (auth, payments, AI, deploy, storage). Zekra, Mahaam, Moharrik and Hosbah are built on it.",
+      "webpageUrl": {
+        "url": "https://to-go.dev"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/togo-framework/togo",
+        "wellKnown": "https://github.com/togo-framework/togo/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "go",
+        "framework",
+        "web",
+        "cli",
+        "self-hosted"
+      ]
+    },
+    {
+      "guid": "tomatophp",
+      "name": "TomatoPHP",
+      "description": "MIT plugin ecosystem for Laravel and FilamentPHP: users, CMS, media manager, invoices, e-commerce, PWA, translations, developer tools. 164 Packagist packages, ~1.79M installs.",
+      "webpageUrl": {
+        "url": "https://tomatophp.com"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/tomatophp",
+        "wellKnown": "https://github.com/tomatophp/.github/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "php",
+        "laravel",
+        "filament",
+        "admin-panel",
+        "developer-tools"
+      ]
+    },
+    {
+      "guid": "zekra",
+      "name": "Zekra",
+      "description": "Self-hostable shared long-term memory for AI agents over the Model Context Protocol.",
+      "webpageUrl": {
+        "url": "https://zekra.dev"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/fadymondy/zekra",
+        "wellKnown": "https://github.com/fadymondy/zekra/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:AGPL-3.0-only"
+      ],
+      "tags": [
+        "ai",
+        "mcp",
+        "memory",
+        "self-hosted"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "togo-sponsor",
+        "type": "other",
+        "address": "https://to-go.dev/sponsor",
+        "description": "Sponsor ToGO"
+      },
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/fadymondy",
+        "description": "GitHub Sponsors"
+      },
+      {
+        "guid": "bank",
+        "type": "bank",
+        "description": "Bank transfer details shared privately on request"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "togo-core",
+        "status": "active",
+        "name": "ToGO core + plugin ecosystem",
+        "description": "Framework releases toward 1.0, keeping 240 plugins compatible, security hardening of auth/payment plugins, documentation in English and Arabic.",
+        "amount": 25000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "togo-sponsor",
+          "github-sponsors",
+          "bank"
+        ]
+      },
+      {
+        "guid": "tomatophp-maintenance",
+        "status": "active",
+        "name": "TomatoPHP maintenance",
+        "description": "Compatibility with each Filament/Laravel major, security fixes and docs across the most-installed packages.",
+        "amount": 10000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "togo-sponsor",
+          "github-sponsors",
+          "bank"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
